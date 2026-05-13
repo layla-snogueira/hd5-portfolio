@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@import 'pixel-retroui/dist/index.css';
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: #080808;
+  background: #dbeafe;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #dbeafe;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
